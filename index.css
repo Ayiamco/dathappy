@@ -214,6 +214,12 @@ article figure{
 #pillars h3{
     font-family: "lato";
 }
+#pillars h2{
+    font-family: "lato";
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0.5em;
+}
 
 /* scholarship section styles */
 #scholarship{
