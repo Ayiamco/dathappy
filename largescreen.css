@@ -1,0 +1,113 @@
+@media only screen and (min-width:900px){
+    #nav-show,#nav-hide{
+        display: none;
+    }
+
+    #header-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: var(--wide-screen);
+        height: 5em;
+    }
+    #mobile-header{
+        width: 20%;
+    }
+    .logo-container{
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        width: 60%;
+        position: static;
+        height: 3em;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    nav a{
+        margin: 0px;
+        padding: 0px;
+        padding: 0.5em 0.7em;
+    }
+    nav a:hover{
+        background-color: var(--gray-1);
+    }
+    #start-learning{
+        margin: 0px;
+        padding: 0px;
+        padding: 1em 1.5em;
+    }
+
+    /* apprenticeship section styles */
+    .apprenticeship-articles{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .apprenticeship-articles article{
+        width: 45%;
+        
+    }
+
+    /* start new section styles */
+    .start-new-flex{
+        display: flex;
+        
+    }
+    .start-new-flex> figure{
+        width: 50%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .start-new-flex> div{
+        width: 40%;
+        margin: 0px;
+        margin-top: 2em;
+    }
+
+    /* pillars section styles */
+    .pillars-flex{
+        display: flex;
+        padding: var(--wide-screen);
+        height: auto;
+    }
+
+    .pillars-flex figure{
+        width: 30%;
+        height: 100%; 
+        margin: 0px 2em;
+    }
+
+    .pillars-flex img{
+        height: 40%;
+    }
+    .pillars-flex figcaption{
+        height: 60%;
+    }
+    /* contact section styles */
+    #contact form {
+        display: flex;
+        flex-direction: column;
+        padding: 0em 5em;
+    }
+    .form-flex{
+        display: flex;
+    }
+    .form-flex>div{
+        width: 90%; 
+    }
+    #contact textarea{
+        width: 90%;
+        height: 10.3em;
+        margin-left: 3em;
+    }
+    .contact-btn-1{
+        width: 9em;
+        padding: 0.5em;
+    }
+
+}

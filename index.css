@@ -5,6 +5,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 img{
     width: 100%;
@@ -36,6 +39,7 @@ img{
 
 :root{
     --small-screen:1.5em;
+    --wide-screen:2.5em;
     --gray-1:rgb(247, 245, 245);
     --gray-2: rgb(48, 46, 46);
     --gray-3:rgb(24, 22, 22);
@@ -47,6 +51,11 @@ body{
 header{
     padding:var(--small-screen) ;
     background-color: white;
+    position: sticky;
+    top: 0;
+    right:0;
+    left: 0;
+
     
 }
 header i {
@@ -138,6 +147,11 @@ nav a:hover{
     text-align: center;
 }
 
+
+.thrive-aside{
+    text-align: center;
+}
+
 /* apprenticeship section styles */
 #apprenticeship{
     padding: var(--small-screen);
@@ -173,22 +187,20 @@ article figure{
 
 /* start-new section styles */
 #start-new{
-    padding: var(--small-screen);
+    margin: var(--small-screen);
+    text-align: center;
+    border: 1px solid rgb(202, 195, 195);
+    border-radius: 4px;
 }
 #start-new h2{
     font-family: "lato";
-    text-align: center;
 }
-#start-new >p {
-    text-align: center;
-}
+
 #start-new > div{
-    border: 1px solid rgb(202, 195, 195);
     padding: 0.5em;
-    margin: 1em 0px;
     background-color: white;
-    border-radius: 4px;
-    box-shadow: 0px 5px 5px  rgb(202, 195, 195);
+    
+   
 }
 #start-new .btn-1{
     text-align: center;
@@ -196,12 +208,18 @@ article figure{
 
 .start-new-price{
     font-family: "lato";
+    font-weight: bold;
     margin: 0.5em 0px;
+
 }
 
 /* pillars section styles */
+#approach{
+    height:2em;
+}
 #pillars{
     padding: var(--small-screen);
+    margin-top: 2em;
 }
 #pillars figure{
     margin-top: 1em;
@@ -228,7 +246,8 @@ article figure{
 
 #scholarship h2{
     font-family: "lato";
-    margin-top: 1em;
+    margin-top: 2em;
+    text-align: center;
 }
 
 #scholarship p{
@@ -236,11 +255,23 @@ article figure{
     margin-top: 0.5em;
 }
 
+.btn-sch{
+    background-color: blue;
+    color: white;
+    padding: 0.5em 1.2em;
+    margin: auto;
+    width: 90%;
+    cursor: pointer;
+}
+.btn-sch:hover{
+    background-color: var(--gray-3);
+}
 /* contact section styles */
 #contact{
     text-align: center;
     background-color: white;
     padding: var(--small-screen);
+    
 }
 #contact h2{
     font-family: "lato";

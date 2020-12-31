@@ -1,0 +1,81 @@
+@media only screen and (min-width:700px){
+    /* nav styles */
+    #header-nav,
+    #apprenticeship,
+    #intro,
+    #pillars,
+    #contact,
+    #scholarship{
+        padding:var(--wide-screen) ;
+    }
+    h2{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1.7em;
+    }
+    p{
+        font-size: 1.4em;
+    }
+    
+    #start-new{
+        margin: var(--wide-screen);
+        padding: 1em;
+        background-color: white;
+    }
+    #start-learning:hover{
+        background-color: var(--gray-3);
+    }
+    /* intro section styles */
+    #intro{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: var(--wide-screen);
+    }
+
+    #intro figure{
+        width: 50%;
+    }
+
+    #intro aside{
+        width: 50%;
+    }
+
+    #intro h2{
+        font-size: 3em;
+    }
+
+    .btn-1{
+        font-size: 1.5em;
+    }
+
+    /* apprentiship section styles */
+    
+    .apprenticeship-img{
+        display: flex;
+        margin-bottom: 2em;
+    }
+
+    /* scholarship section styles */
+    #scholarship h2{
+        text-align: center;
+    }
+
+    .btn-sch{
+        width: 65%;
+        padding: 1em 1.2em;
+    }
+
+    /* contact section styles */
+    .contact-btn-1{
+        padding: 1em 1.2em;
+    }
+
+    /* footer section styles */
+    .footer-logo figure{
+        width: 3em;
+        height: 3em;
+    }
+
+}
+
