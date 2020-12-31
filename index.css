@@ -261,9 +261,13 @@ article figure{
     height: 9em;
     padding: 1em;
     resize: none;
-    font-family: "lato"
+    font-family: "lato";
+    border: 1px solid var(--gray-2);
 }
 
+#contact p{
+    margin-bottom: 0.5em;
+}
 /* footer styles */
 footer{
     background-color: var(--gray-3);
