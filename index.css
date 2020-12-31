@@ -1,0 +1,212 @@
+
+/* global styles and variables */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.btn-1{
+    color: white;
+    background-color: blue;
+    padding: 0.7em 1.2em;
+    margin: 1em 0em;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.txt-orangered{
+    color:orangered;
+}
+
+.txt-green{
+    color: green;
+}
+
+.btn-1:hover{
+    background-color: var(--gray-3);
+}
+
+:root{
+    --small-screen:1.5em;
+    --gray-1:rgb(247, 245, 245);
+    --gray-2: rgb(48, 46, 46);
+    --gray-3:rgb(24, 22, 22);
+}
+body{
+    background-color: var(--gray-1);
+}
+/* page top header styles */
+header{
+    padding:var(--small-screen) ;
+    background-color: white;
+    
+}
+header i {
+    border: 0.5px solid black;
+    padding: 0.5em;
+    color: var(--gray-2);
+
+}
+#mobile-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    width: 30%;
+    height: 2em;
+}
+.logo-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+nav,#nav-hide{
+    display: none;
+}
+nav{
+    position: fixed;
+    top: 5em;
+    right: 0;
+    left: 0;
+    background-color: white;
+}
+nav a{
+    color: var(--gray-2);
+    display: block;
+    padding-bottom: 0.5em;
+    text-decoration: none;
+    text-align: center;
+    margin: 0.5em 20vw;
+    
+}
+nav a:hover{
+    border-bottom: 1px solid var(--gray-2);
+}
+#start-learning{
+    color: white;
+    background-color: blue;
+    margin-right:var(--small-screen) ;
+    margin-left:var(--small-screen) ;
+    padding: 0.5em;
+    border-radius: 7px;
+    margin-bottom: 1em;
+}
+
+/* intro section styles */
+#intro{
+    padding: var(--small-screen);
+}
+
+#into figure{
+    width: 100%;
+    height: 40vh;
+}
+#intro h2{
+    color: rgb(124, 124, 53);
+    padding: 0.5em 0px;
+    font-family: "lato";
+}
+
+/* thrive section */
+#thrive{
+    padding: var(--small-screen);
+}
+
+#thrive figure{
+    width: 100%;
+    height: 30vh;
+}
+
+#thrive h2{
+    color:blue;
+    padding: 0.5em 0px;
+    font-family: "lato";
+}
+.bold{
+    margin: 1em 0px;
+    font-family: "lato";
+    text-align: center;
+}
+
+/* apprenticeship section styles */
+#apprenticeship{
+    padding: var(--small-screen);
+}
+#apprenticeship h2{
+    padding: 0.5em 0px;
+    font-family: "lato";
+    text-align: center;
+}
+.apprenticeship-img figure{
+    width: 100%;
+    height: 20vh;
+    margin: 0.5em 0px;
+}
+
+#apprenticeship article{
+    border: 1px solid rgb(202, 195, 195);
+    padding: 0.5em;
+    margin: 1em 0px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 5px 5px  rgb(202, 195, 195);
+}
+article figure{
+    height: 25vh;
+    width: 70%;
+    margin: auto;
+}
+
+/* start-new section styles */
+#start-new{
+    padding: var(--small-screen);
+}
+#start-new h2{
+    font-family: "lato";
+    text-align: center;
+}
+#start-new >p {
+    text-align: center;
+}
+#start-new > div{
+    border: 1px solid rgb(202, 195, 195);
+    padding: 0.5em;
+    margin: 1em 0px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 5px 5px  rgb(202, 195, 195);
+}
+#start-new .btn-1{
+    text-align: center;
+}
+
+.start-new-price{
+    font-family: "lato";
+    margin: 0.5em 0px;
+}
+
+/* pillars section styles */
+#pillars{
+    padding: var(--small-screen);
+}
+#pillars figure{
+    margin-top: 1em;
+}
+#pillars figure>img{
+    width: 90%;
+    margin: auto;
+}
+
+#pillars h3{
+    font-family: "lato";
+}
