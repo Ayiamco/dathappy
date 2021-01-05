@@ -72,9 +72,13 @@
     }
 
     /* footer section styles */
-    .footer-logo figure{
-        width: 3em;
+    footer figure{
+        width: 7em;
         height: 3em;
+        margin: 0;
+    }
+    footer p{
+        margin-top: 0.1em;
     }
 
 }

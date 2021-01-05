@@ -51,10 +51,10 @@ body{
 header{
     padding:var(--small-screen) ;
     background-color: white;
-    position: sticky;
+    /* position: sticky;
     top: 0;
     right:0;
-    left: 0;
+    left: 0; */
 
     
 }
@@ -303,26 +303,29 @@ article figure{
 footer{
     background-color: var(--gray-3);
     padding: 2em var(--small-screen);
-}
-
-footer >figure{
-    width: 40vw;
-    height: 2em;
-    margin: auto;
-    margin-bottom: 1em;
-}
-.footer-logo{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-}
-.footer-logo >figure{
-    height: 2em;
-    width: 2em;
-    margin: 0.5em;
+    align-items: center;
 }
 
 footer p{
     text-align: center;
     color: white;
     margin-top: 0.5em;
+}
+
+#btn-top i{
+    background-color: blue;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    display: inline;
+    text-align: center;
+    padding: 0.2em;
+    font-size: 1.5em;
+    color: white;
+    position: fixed;
+    right: 1em;
+    bottom: 12em;
 }
